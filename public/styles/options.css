@@ -1,0 +1,52 @@
+html {
+    background-color:rgb(43, 44, 48);
+}
+div#container #header {
+    position:relative;
+    margin-top: 2em;
+    width:40%;
+    margin-left:30%;
+    border:1px solid rgb(95, 96, 102);
+    background-color: rgb(95, 96, 102);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+div#container #header #main-title {
+    color:wheat;
+}
+div#container #main {
+    position:relative;
+    width:min-content;
+    margin-top: 7em;
+    margin-left:31%;
+    border:0px solid black;
+}
+div#container #main .boxy {
+    background-color:rgb(95, 96, 102);
+    border: 0em solid blue;
+    color: wheat;
+    margin:1em;
+    padding:0.3em;
+}
+div#container #sec {
+    position:relative;
+    width:30em;
+    margin-top: -18.3em;
+    margin-left:42%;
+    border:0px solid black;
+}
+div#container #sec .boxy-sup, div#container #sec .boxy-sup-contact {
+    background-color:rgb(95, 96, 102);
+    border: 0em solid blue;
+    color: wheat;
+    margin:1em;
+    padding:0.3em;
+}
+div#container #sec .boxy-sup-contact:hover {
+    background-color:rgb(140, 141, 148);
+}
+a {
+    color: wheat;
+    text-decoration: none;
+}
