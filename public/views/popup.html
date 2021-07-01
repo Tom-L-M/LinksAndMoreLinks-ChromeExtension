@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="stylesheet" href="../styles/popup.css">
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this extension.</noscript>
+        <div id="root">
+            <div>
+                <input type="checkbox" id="inc-switch" checked />
+                <label for="inc-switch" id="menu-lb">Use Chrome Incognito Mode</label>
+            </div>
+            <form>
+                <textarea id="maininput" name="maininput" rows="10" cols="45"></textarea> <br />
+                <button type="button" class="menu-bt" id="runner">Open</button>
+                <button type="button" class="menu-bt" id="clearer">Clear</button>
+            </form>
+        </div>
+        <script src="../../scripts/foreground.js"></script>
+    </body>
+</html>
