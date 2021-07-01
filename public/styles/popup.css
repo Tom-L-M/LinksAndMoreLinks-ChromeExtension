@@ -1,0 +1,56 @@
+html {
+    min-height: 5em;
+    min-width: 10em;
+    background-color: rgb(32, 33, 36);
+}
+.menu-bt {
+    outline:none;
+    color: rgb(103, 142, 226);
+    border-radius: 0.2em;
+    border: 0px solid grey;
+    background-color:rgba(53,54,58,1);
+    font-family:Arial, Helvetica, sans-serif;
+    height:1.8em;
+    margin-top:0.2em;
+    margin-bottom: 0.2em;
+}
+.menu-bt:hover {
+    cursor:pointer;
+    background-color: rgb(82, 83, 88);
+}
+#runner {
+    width:12.4em;
+    margin-top:0.5em;
+    margin-left:0.1em;
+}
+#clearer {
+    width:12.45em;
+    margin-left:0.1em;
+}
+#maininput {
+    margin-top:0.2em;
+    margin-left:0.1em;
+    margin-right:0.2em;
+    background-color: rgba(53,54,58,1);
+    outline: none;
+    border:0px solid black;
+    border-radius:0.2em;
+    color: gray;
+    resize: none;
+    overflow: hidden;
+}
+#menu-lb {
+    color: rgb(103, 142, 226);
+    margin-bottom:0.3em;
+}
+#inc-switch {
+    clear: left;
+}
+#inc-switch, #menu-lb {
+    float: left;
+    line-height: 1.6em;
+    height: 1.6em;
+    margin: 0px 2px;
+    padding: 0px;
+    font-size: inherit;
+}
