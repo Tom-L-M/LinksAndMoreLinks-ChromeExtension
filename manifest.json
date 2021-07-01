@@ -1,0 +1,28 @@
+{
+    "name": "LinksAndMoreLinks",
+    "description": "Multiple URL Loader",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/public/images/icon-16x16.png"
+    },
+    "background": {
+        "minimum_chrome_version": 93,
+        "service_worker": "wrapper.js"
+    },
+    "action": {
+        "default_title": "LinksAndMoreLinks",
+        "default_popup": "/public/views/popup.html",
+        "default_icon": {
+            "16": "/public/images/icon-16x16.png"
+        }
+    },
+    "options_page": "/public/views/options.html",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*"
+    ]
+}
